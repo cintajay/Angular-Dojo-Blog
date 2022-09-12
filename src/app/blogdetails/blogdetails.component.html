@@ -1,0 +1,13 @@
+<p>works</p>
+<br><br>
+
+<div *ngIf="item">
+  <h3>{{item.title}}</h3>
+  <div>written by&nbsp; {{item.author}}</div> <br>
+  <div>{{item.body}}</div> <br>
+  <button class="solidbuttonstyle" (click)="Deletefunc(itemid)">delete</button>&nbsp;&nbsp;&nbsp;
+  <a class="solidbuttonstyle" routerLink="/home/{{ itemid }}/edit">edit</a>
+</div>
+
+
+

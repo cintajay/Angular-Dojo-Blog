@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+h3{
+  color: #f1356d;
+
+}
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+.middlealign{
+  display: flex;
+  justify-content: center;
+}
+.solidbuttonstyle{
+  background-color: #f1356d;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px;
+  border-color: #f1356d;
+}
+button{
+  border: 0;
+  background-color: white;
+  font-weight: 100;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+}
+a{
+  text-decoration: none;
+}

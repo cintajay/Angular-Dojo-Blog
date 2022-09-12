@@ -1,0 +1,12 @@
+
+<br><br>
+<h3 class="middlealign">Add a New Blog</h3> <br><br>
+<form action="/home" #itemForm="ngForm" (ngSubmit)="Submitfunc(itemForm)" >
+  <label for="title">Blog Title:</label> <br>
+  <input type="text" id="titleid" name="title" [ngModel]="item.title"> <br>
+  <label for="body">Blog Body:</label> <br>
+  <textarea name="body" id="bodyid" cols="25" rows="2" [ngModel]="item.body"></textarea> <br>
+  <label for="author">Blog Author:</label> <br>
+  <input type="text" id="authorid" name="author" [ngModel]="item.author" autocomplete="on"> <br> <br>
+  <input type="submit" class="solidbuttonstyle" value="Add Blog">
+</form>

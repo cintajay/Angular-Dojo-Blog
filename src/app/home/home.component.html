@@ -1,0 +1,15 @@
+
+<br><br>
+<h3 class="middlealign">All blogs!</h3>
+
+<br>
+  <ul class="items">
+  <li *ngFor="let item of items; index as i">
+    <a class="pinkbuttonstyle" routerLink="/home/{{i}}">{{item.title}}
+      <button type="button"></button>
+    </a>
+    <div >{{item.author}}</div> <br>
+
+  </li>
+</ul>
+
